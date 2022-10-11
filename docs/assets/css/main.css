@@ -4699,7 +4699,8 @@ input, select, textarea {
 			padding: var(--gap);
 
 			display: grid;
-			
+			grid-template-columns: minmax(200px, 200px) minmax(100%, 1fr);
+			grid-auto-rows: minmax(200px, 1fr);
 
 			
 			gap: var(--gap) ;
