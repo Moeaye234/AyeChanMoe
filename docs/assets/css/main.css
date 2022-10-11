@@ -4692,7 +4692,8 @@ input, select, textarea {
 		.gallery__img {
 			--gap: 5px;
 			--num-cols: 3;
-			--row-height: 200px;
+			height: 200px;
+			width: 200px;
 			
 
 			box-sizing: border-box;
@@ -4714,8 +4715,7 @@ input, select, textarea {
 			object-fit: contain;
 			max-height: 100%
 			max-width: 100%
-			width: auto;
-			height: auto;
+			
 			object-fit: cover;
 			justify-self: center; align-self: center; min-width: 100%; min-height: 100%; box-sizing: border-box
 			foo-self: center; max-size: fill;
