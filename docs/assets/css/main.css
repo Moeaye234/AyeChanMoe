@@ -4693,6 +4693,7 @@ input, select, textarea {
 			--gap: 5px;
 			--num-cols: 3;
 			--row-height: 200px;
+			width: 200px;
 
 			box-sizing: border-box;
 			padding: var(--gap);
