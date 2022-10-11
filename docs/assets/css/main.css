@@ -4700,15 +4700,15 @@ input, select, textarea {
 
 			display: grid;
 			grid-template-columns: repeat(var(--num-cols), 1fr);
-			grid-auto-rows: var(--row-height);
-			grid-auto-width: var(--row-width);
+			grid-auto-rows: 200px;
+			grid-auto-width: 200px);
 			gap: var(--gap) ;
 		}
 
 		.gallery__img > img {
 			object-fit: contain;
-			width: 200px;
-			height: 200px;
+			width: 100%;
+			height: 100%;
 			object-fit: cover;
 			justify-self: center; align-self: center; min-width: 100%; min-height: 100%; box-sizing: border-box
 			foo-self: center; max-size: fill;
