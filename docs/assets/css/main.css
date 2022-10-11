@@ -4692,37 +4692,24 @@ input, select, textarea {
 		.gallery__img {
 			--gap: 5px;
 			--num-cols: 3;
-			height: 200px;
-			width: 200px;
-			
+			--row-height: 200px;
 
 			box-sizing: border-box;
 			padding: var(--gap);
 
 			display: grid;
-			grid-auto-columns: 0.3fr
-				grid-auto-rows: 80px
-			
-			justify-content: center;
-			
-			grid-auto-rows: minmax(80, 0.3fr);
-
-			
+			grid-template-columns: repeat(var(--num-cols), 1fr);
+			grid-auto-rows: var(--row-height); 
 			gap: var(--gap) ;
 		}
 
 		.gallery__img > img {
-			object-fit: contain;
-			min-height: 30%
-			min-width: 30%
-			height: 200px
-			width: 200px
+			width: 100%;
+			height: 100%;
 			object-fit: cover;
-			justify-self: center; align-self: center; min-width: 100%; min-height: 100%; box-sizing: border-box
-			foo-self: center; max-size: fill;
 		}
 
-	.split-image-container .split-image {
+		.split-image-container .split-image {
 			width: 320px;
 		}
 
