@@ -4713,9 +4713,10 @@ input, select, textarea {
 
 		.gallery__img > img {
 			object-fit: contain;
-			max-height: 100%
-			max-width: 100%
-			
+			min-height: 30%
+			min-width: 30%
+			height: 200px
+			width: 200px
 			object-fit: cover;
 			justify-self: center; align-self: center; min-width: 100%; min-height: 100%; box-sizing: border-box
 			foo-self: center; max-size: fill;
