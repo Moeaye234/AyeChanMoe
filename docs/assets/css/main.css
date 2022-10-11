@@ -4700,8 +4700,8 @@ input, select, textarea {
 
 			display: grid;
 			grid-template-columns: repeat(var(--num-cols), 1fr);
-			grid-auto-rows: 200px;
-			grid-auto-width: 200px);
+			grid-auto-rows: var(--row-height);
+			
 			gap: var(--gap) ;
 		}
 
