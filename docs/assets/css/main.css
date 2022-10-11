@@ -4699,7 +4699,9 @@ input, select, textarea {
 			padding: var(--gap);
 
 			display: grid;
-			grid-template-columns: minmax(200px, 200px) minmax(100%, 1fr);
+			 grid-template-rows: repeat(3, 200px);
+			 grid-template-columns: repeat(3, 200px);
+			justify-content: center;
 			grid-auto-rows: minmax(200px, 1fr);
 
 			
@@ -4715,9 +4717,7 @@ input, select, textarea {
 			foo-self: center; max-size: fill;
 		}
 
-		.split-image-container .split-image {
-			width: 320px;
-		}
+	
 
 		.gallery__img > img {
 			-moz-transition: all 0.3s;
