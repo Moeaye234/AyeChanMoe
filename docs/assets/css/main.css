@@ -4700,8 +4700,7 @@ input, select, textarea {
 
 			display: grid;
 			
-			grid-template-columns: minmax(200px, 200px) minmax(90%, 1fr);
-			grid-auto-rows: minmax(200px, 1fr);
+
 			
 			gap: var(--gap) ;
 		}
