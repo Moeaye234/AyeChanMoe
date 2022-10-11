@@ -4728,24 +4728,5 @@ input, select, textarea {
 
 		}
 			
-		.duo__img {
-			
-			--num-cols: 2;
-			--row-height: 500px;
-
-			box-sizing: border-box;
-			padding: var(--gap);
-
-			display: grid;
-			grid-template-columns: repeat(var(--num-cols), 1fr);
-			grid-auto-rows: var(--row-height); 
-			
-		}
-
-		.duo__img > img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-
+	
 		
