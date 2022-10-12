@@ -4692,7 +4692,7 @@ input, select, textarea {
 		.gallery__img {
 			--gap: 5px;
 			--num-cols: 3;
-			--row-height: 200px;
+			--row-height: 500px;
 			
 
 			box-sizing: border-box;
